@@ -9,4 +9,5 @@ Usage:
 2. In your code do the following,
 
    $this->load->helper('country');
+   
    $country_name = get_country_name(COUNTRY_CODE);
