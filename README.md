@@ -8,6 +8,8 @@ Usage:
 1. Add country_helper.php file to app/helpers folder.
 2. In your code do the following,
 
+   <?php
+
    $this->load->helper('country');
    
    $country_name = get_country_name(COUNTRY_CODE);
